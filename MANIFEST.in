@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include expat_orbit_connections *.css
+recursive-include expat_orbit_connections *.csv
+recursive-include expat_orbit_connections *.html
+recursive-include expat_orbit_connections *.ico
+recursive-include expat_orbit_connections *.js
+recursive-include expat_orbit_connections *.json
+recursive-include expat_orbit_connections *.md
+recursive-include expat_orbit_connections *.png
+recursive-include expat_orbit_connections *.py
+recursive-include expat_orbit_connections *.svg
+recursive-include expat_orbit_connections *.txt
+recursive-exclude expat_orbit_connections *.pyc
