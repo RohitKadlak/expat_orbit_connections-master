@@ -16,6 +16,7 @@
   {
    "fieldname": "sender",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Sender",
    "options": "Expat"
   },
@@ -34,7 +35,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-28 13:05:10.054783",
+ "modified": "2023-04-28 17:08:26.704826",
  "modified_by": "Administrator",
  "module": "Expat Orbit Connection",
  "name": "Connection Request",

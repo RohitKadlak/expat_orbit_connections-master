@@ -18,6 +18,7 @@
   {
    "fieldname": "first_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "First Name"
   },
   {
@@ -45,7 +46,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-28 11:30:45.644596",
+ "modified": "2023-04-28 17:08:42.300282",
  "modified_by": "Administrator",
  "module": "Expat Orbit Connection",
  "name": "Expat",

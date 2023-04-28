@@ -10,6 +10,7 @@ frappe.ui.form.on('Expat', {
 				
 				callback: function(r)
 				{
+					
 				}
 			});
 		})

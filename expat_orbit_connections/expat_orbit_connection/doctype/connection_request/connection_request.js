@@ -9,6 +9,7 @@ frappe.ui.form.on('Connection Request', {
 				doc:frm.doc,
 				callback: function(r)
 				{
+					
 				}
 			});
 		},__("Connection")),

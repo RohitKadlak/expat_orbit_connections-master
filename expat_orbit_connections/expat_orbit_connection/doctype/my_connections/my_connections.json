@@ -15,6 +15,7 @@
   {
    "fieldname": "expat",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Expat",
    "options": "Expat"
   },
@@ -27,7 +28,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-04-28 13:20:47.727720",
+ "modified": "2023-04-28 17:08:06.924275",
  "modified_by": "Administrator",
  "module": "Expat Orbit Connection",
  "name": "My Connections",
