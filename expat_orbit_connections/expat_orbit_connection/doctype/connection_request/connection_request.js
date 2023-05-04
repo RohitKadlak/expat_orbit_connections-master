@@ -12,6 +12,7 @@ frappe.ui.form.on('Connection Request', {
 				}
 			});
 		},__("Connection")),
+		
 		frm.add_custom_button(__('Reject'), function() {
 			frappe.call({
 				method :'reject',

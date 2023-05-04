@@ -6,6 +6,7 @@ from frappe.model.document import Document
 
 class Expat(Document):
 	@frappe.whitelist()
+	
 	def connection_request(self):
 		expat_list = frappe.get_all("Expat")
 		for exp_list in expat_list:

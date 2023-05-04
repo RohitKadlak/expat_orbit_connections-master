@@ -17,7 +17,6 @@ class ConnectionRequest(Document):
 			for mcl in add_mc.connections:
 				mc_list.append(mcl.expat)
 			
-			
 			if self.receiver in mc_list:
 				frappe.msgprint("Already Connected")
 			else:
