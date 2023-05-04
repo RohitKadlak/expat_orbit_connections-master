@@ -15,6 +15,5 @@ class Expat(Document):
 				c_reuest.receiver = exp_list.name 
 				c_reuest.status = "Pending"
 				c_reuest.save(ignore_permissions=True)
-	
 		frappe.msgprint("Send Connection Request")
 

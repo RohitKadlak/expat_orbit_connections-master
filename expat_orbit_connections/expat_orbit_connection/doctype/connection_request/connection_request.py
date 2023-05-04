@@ -5,7 +5,6 @@ import frappe
 from frappe.model.document import Document
 
 class ConnectionRequest(Document):
-
 	@frappe.whitelist()
 	def accept(self):
 		self.status = "Connected"

@@ -6,11 +6,10 @@ frappe.ui.form.on('Expat', {
 		frm.add_custom_button(__('Send Connection Request'), function() {
 			frappe.call({
 				method :'connection_request',
-				doc:frm.doc,
-				
+				doc:frm.doc,				
 				callback: function(r)
 				{
-					
+
 				}
 			});
 		})
